@@ -21,12 +21,6 @@ An intelligent book recommendation system that uses advanced machine learning te
 - **Sentiment Analysis**: DistilRoBERTa emotion classifier
 - **Data Processing**: Pandas, NumPy
 
-## 📋 Prerequisites
-
-- Python 3.8 or higher
-- OpenAI API key
-- Git
-
 ## 🚀 Installation
 
 1. **Clone the repository**
@@ -122,27 +116,6 @@ The app will open in your browser at `http://localhost:8501`
                        ┌──────────────────┐
                        │  OpenAI Embeddings│
                        └──────────────────┘
-```
-
-## 📁 Project Structure
-
-```
-llm-semantic-book-recommender/
-├── streamlit_dashboard.py      # Main Streamlit application
-├── gradio-dashboard.py         # Legacy Gradio interface
-├── data-exploration.ipynb      # Data analysis and preprocessing
-├── text-classification.ipynb   # Book categorization
-├── sentiment-analysis.ipynb    # Emotion analysis
-├── vector-search.ipynb         # Vector database creation
-├── books_cleaned.csv           # Processed book dataset
-├── books_with_categories.csv   # Books with category labels
-├── books_with_emotions.csv     # Books with emotion scores
-├── tagged_description.txt      # Book descriptions for vector search
-├── cover-not-found.png         # Default book cover image
-├── requirements.txt            # Python dependencies
-├── .env                        # Environment variables (create this)
-└── README.md                   # This file
-```
 
 ## 🔧 Configuration
 
@@ -163,50 +136,3 @@ You can customize the recommendation system by:
 - **Modifying category mappings** in the text classification
 - **Changing the UI layout** in the Streamlit app
 
-## 📈 Performance
-
-- **Vector Search**: Sub-second response times for most queries
-- **Memory Usage**: ~2GB RAM for full dataset
-- **Scalability**: Can handle datasets with 100k+ books
-- **Accuracy**: High semantic relevance in recommendations
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [Goodreads](https://www.goodreads.com/) for the book dataset
-- [OpenAI](https://openai.com/) for the embedding models
-- [Hugging Face](https://huggingface.co/) for the transformer models
-- [Streamlit](https://streamlit.io/) for the web framework
-- [LangChain](https://langchain.com/) for the ML framework
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-
-1. Check the [Issues](https://github.com/yourusername/llm-semantic-book-recommender/issues) page
-2. Create a new issue with detailed information
-3. Contact the maintainers
-
-## 🔮 Future Enhancements
-
-- [ ] User preference learning
-- [ ] Collaborative filtering
-- [ ] Book cover image analysis
-- [ ] Multi-language support
-- [ ] API endpoints for integration
-- [ ] Advanced analytics dashboard
-- [ ] Book recommendation explanations
-- [ ] Social features (sharing, reviews)
-
----
